@@ -19,9 +19,9 @@ Terminal / Prompt de Comando
 
 🔎 Etapas do Laboratório
 
-🪟 Windows
+## 🪟 Windows
 
-1- Informações do sistema
+### 1- Informações do sistema
 
 Comando: systeminfo
 
@@ -29,7 +29,7 @@ Comando: systeminfo
 
 ---
 
-2. Teste de conectividade
+### 2. Teste de conectividade
 
 ❌ Ping com erro
 
@@ -46,7 +46,7 @@ ping google.com
 
 ---
 
-3. Instalação e remoção de programa
+### 3. Instalação e remoção de programa
 
 📥 Instalação
 
@@ -60,12 +60,12 @@ ping google.com
 
 ---
 
-4. Gerenciamento de serviços
+### 4. Gerenciamento de serviços
 
 ⏹️ Serviço Parado
  
 Comando:
-service.msc
+services.msc
 
 ![Windows Serviço ](img/stop-win.png)
 
@@ -77,7 +77,7 @@ service.msc
 ---
 
 🐧 Linux
-1. Informações do sistema
+### 1. Informações do sistema
 
 Comando: 
 uname -a
@@ -86,7 +86,7 @@ uname -a
 
 ---
 
-2. Teste de conectividade
+### 2. Teste de conectividade
 
 ❌ Ping com erro
 
@@ -106,24 +106,107 @@ ping google.com
 
 ---
 
-3. Instalação e remoção de programa
+### 3. Instalação e remoção de programa
 
 📥 Instalação
 
-comandos:
-
-sudo apt install 
-
+Comando:
+sudo apt  update
 
 ![Linux Instalação](img/apt-linux.png)
+
+---
+
+Comando: 
+sudo apt install htop
+
+![Linux Instalação](img/install-htop-linux.png)
+
 
 ![Linux Instalação](img/htop-linux.png)
 
 
+---
 
+🗑️ Remoção
 
+Comando: 
+sudo apt remove htop
 
+![Linux Remoção](img/remove-htop-linux.png)
 
+---
 
+## 4. Gerenciamento de serviços
 
+▶️ Serviço rodando
+
+Comando:
+systemctl status cups
+
+![Linux Serviço](img/servico-linux.png)
+
+---
+
+⏹️ Serviço parado
+
+Comando:
+sudo systemctl stop cups
+
+![Linux Serviço](img/stop-servico-linux.png)
+
+---
+
+🔄 Serviço iniciado novamente
+
+Comando:
+sudo systemctl start cups
+
+![Linux Serviço](img/servico-running-linux.png)
+
+---
+
+### 5. Visualização de logs
+
+📸 Logs em tempo real:
+
+Comando:
+journalctl -f
+
+![Linux Logs](img/linux-log.png)
+
+---
+
+📸 Geração de eventos:
+
+Comando:
+sudo apt update
+
+![Linux Logs](img/log2-linux.png)
+
+---
+
+📚 Aprendizados
+
+Diagnóstico de problemas de conectividade
+
+Interpretação de erros de rede
+
+Instalação e remoção de programas
+
+Gerenciamento de serviços no sistema
+
+Análise de logs para troubleshooting
+
+---
+
+🧪 Conclusão
+
+Este laboratório simulou cenários reais enfrentados por profissionais de suporte técnico, como falhas de rede, controle de serviços e análise de logs, proporcionando uma visão prática das diferenças entre Windows e Linux.
+
+---
+
+🚀 Autor
+
+Projeto desenvolvido para fins de estudo em suporte técnico e infraestrutura de TI.
 
