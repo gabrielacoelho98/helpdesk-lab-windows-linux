@@ -15,5 +15,113 @@ Windows
 Linux (Ubuntu)
 Terminal / Prompt de Comando
 
+---
 
 🔎 Etapas do Laboratório
+
+🪟 Windows
+
+1- Informações do sistema
+
+Comando: systeminfo
+
+![Windows info](img/win-info.png)
+
+---
+
+2. Teste de conectividade
+
+❌ Ping com erro
+
+Comando: ping 192.168.0.254
+
+![Windows ping](img/ping-win-erro.png)
+
+✅ Ping com sucesso
+
+Comando:
+ping google.com
+
+![Windows ping](img/ping-win-ok.png)
+
+---
+
+3. Instalação e remoção de programa
+
+📥 Instalação
+
+![Windows Instalação](img/instalacao-win.png)
+
+---
+
+🗑️ Remoção
+
+![Windows Remoção](img/desinstalacao-win.png)
+
+---
+
+4. Gerenciamento de serviços
+
+⏹️ Serviço Parado
+ 
+Comando:
+service.msc
+
+![Windows Serviço ](img/stop-win.png)
+
+
+▶️ Serviço rodando
+
+![Windows Serviço ](img/servico-running-win.png)
+
+---
+
+🐧 Linux
+1. Informações do sistema
+
+Comando: 
+uname -a
+
+![Linux Serviço ](img/p1-linux-info.png)
+
+---
+
+2. Teste de conectividade
+
+❌ Ping com erro
+
+Comando: 
+ping -c 4 192.168.0.254
+
+![Linux Ping ](img/ping-linux-erro.png)
+
+---
+
+✅ Ping com sucesso
+
+Comando: 
+ping google.com
+
+![Linux Ping ](img/ping-linux-ok.png)
+
+---
+
+3. Instalação e remoção de programa
+
+📥 Instalação
+
+comandos:
+
+
+![Linux Instalação](img/install-htop-linux.png)
+
+![Linux Instalação](img/htop-linux.png)
+
+
+
+
+
+
+
+
+
