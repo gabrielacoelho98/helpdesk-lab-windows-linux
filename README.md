@@ -112,8 +112,10 @@ ping google.com
 
 comandos:
 
+sudo apt install 
 
-![Linux Instalação](img/install-htop-linux.png)
+
+![Linux Instalação](img/apt-linux.png)
 
 ![Linux Instalação](img/htop-linux.png)
 
