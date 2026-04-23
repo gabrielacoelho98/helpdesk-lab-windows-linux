@@ -1,25 +1,25 @@
-# helpdesk lab windows/linux
+# Help Desk Lab — Windows & Linux
 Laboratório prático simulando atividades reais de suporte técnico, com foco em comandos básicos, instalação de programas, gerenciamento de serviços e análise de logs em ambientes Windows e Linux.
 
 ---
 
-🎯 Objetivo
+### Objetivo
 
 Demonstrar na prática tarefas comuns do dia a dia de um profissional de suporte técnico, comparando ferramentas e comandos entre Windows e Linux.
 
 ---
 
-🛠️ Tecnologias Utilizadas
-VirtualBox
-Windows
-Linux (Ubuntu)
-Terminal / Prompt de Comando
+### Tecnologias Utilizadas:
+- VirtualBox
+- Windows
+- Linux (Ubuntu)
+- Terminal / Prompt de Comando
 
 ---
 
-🔎 Etapas do Laboratório
+### Etapas do Laboratório
 
-## 🪟 Windows
+##  Windows
 
 ### 1- Informações do sistema
 
@@ -37,7 +37,7 @@ Comando: ping 192.168.0.254
 
 ![Windows ping](img/ping-win-erro.png)
 
-✅ Ping com sucesso
+### Ping com sucesso
 
 Comando:
 ping google.com
@@ -48,13 +48,13 @@ ping google.com
 
 ### 3. Instalação e remoção de programa
 
-📥 Instalação
+### Instalação
 
 ![Windows Instalação](img/instalacao-win.png)
 
 ---
 
-🗑️ Remoção
+### Remoção
 
 ![Windows Remoção](img/desinstalacao-win.png)
 
@@ -62,7 +62,7 @@ ping google.com
 
 ### 4. Gerenciamento de serviços
 
-⏹️ Serviço Parado
+### Serviço Parado
  
 Comando:
 services.msc
@@ -70,13 +70,14 @@ services.msc
 ![Windows Serviço ](img/stop-win.png)
 
 
-▶️ Serviço rodando
+### Serviço rodando
 
 ![Windows Serviço ](img/servico-running-win.png)
 
 ---
 
-🐧 Linux
+### Linux
+
 ### 1. Informações do sistema
 
 Comando: 
@@ -88,7 +89,7 @@ uname -a
 
 ### 2. Teste de conectividade
 
-❌ Ping com erro
+### Ping com erro
 
 Comando: 
 ping -c 4 192.168.0.254
@@ -97,7 +98,7 @@ ping -c 4 192.168.0.254
 
 ---
 
-✅ Ping com sucesso
+### Ping com sucesso
 
 Comando: 
 ping google.com
@@ -108,7 +109,7 @@ ping google.com
 
 ### 3. Instalação e remoção de programa
 
-📥 Instalação
+### Instalação
 
 Comando:
 sudo apt  update
@@ -128,7 +129,7 @@ sudo apt install htop
 
 ---
 
-🗑️ Remoção
+### Remoção
 
 Comando: 
 sudo apt remove htop
@@ -139,7 +140,7 @@ sudo apt remove htop
 
 ## 4. Gerenciamento de serviços
 
-▶️ Serviço rodando
+### Serviço rodando
 
 Comando:
 systemctl status cups
@@ -148,7 +149,7 @@ systemctl status cups
 
 ---
 
-⏹️ Serviço parado
+### Serviço parado
 
 Comando:
 sudo systemctl stop cups
@@ -157,7 +158,7 @@ sudo systemctl stop cups
 
 ---
 
-🔄 Serviço iniciado novamente
+### Serviço iniciado novamente
 
 Comando:
 sudo systemctl start cups
@@ -168,7 +169,7 @@ sudo systemctl start cups
 
 ### 5. Visualização de logs
 
-📸 Logs em tempo real:
+### Logs em tempo real:
 
 Comando:
 journalctl -f
@@ -177,7 +178,7 @@ journalctl -f
 
 ---
 
-📸 Geração de eventos:
+### Geração de eventos:
 
 Comando:
 sudo apt update
@@ -186,7 +187,7 @@ sudo apt update
 
 ---
 
-📚 Aprendizados
+### Aprendizados
 
 Diagnóstico de problemas de conectividade
 
@@ -200,13 +201,11 @@ Análise de logs para troubleshooting
 
 ---
 
-🧪 Conclusão
+### Conclusão
 
 Este laboratório simulou cenários reais enfrentados por profissionais de suporte técnico, como falhas de rede, controle de serviços e análise de logs, proporcionando uma visão prática das diferenças entre Windows e Linux.
 
 ---
 
-🚀 Autor
 
-Projeto desenvolvido para fins de estudo em suporte técnico e infraestrutura de TI.
 
